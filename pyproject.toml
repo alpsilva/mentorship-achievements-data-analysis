@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "mentorship-achiev-data-analysis"
+version = "0.1.0"
+description = "Process Mining analysis of the achievements by the data community at Recife."
+authors = ["André Luiz <alpsilva.dev@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pm4py = "^2.7.11.13"
+pandas = "^2.2.3"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
